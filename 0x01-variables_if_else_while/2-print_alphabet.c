@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /**
 *main - main function
@@ -6,9 +6,8 @@
 */
 int main(void)
 {
-int s = 97,
-int e = 122;
-while (s <= e)
+char s = 'a';
+while (s <= z)
 {
 putchar(s);
 s++;
