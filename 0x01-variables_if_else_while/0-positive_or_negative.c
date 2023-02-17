@@ -1,4 +1,3 @@
-#include<stdio.hd>
 #include<stdlib.hd>
 #include<time.h>
 
