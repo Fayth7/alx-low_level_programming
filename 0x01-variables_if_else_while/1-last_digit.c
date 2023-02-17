@@ -3,7 +3,7 @@
 #include<stdio.h>
 /**
 *main - Entry
-Return: 0 is success
+*Return: Always 0 (success)
 */
 int main(void)
 {

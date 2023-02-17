@@ -2,7 +2,7 @@
 
 /**
 *main - prints all single digit numbers of base 10
-Return: 0 on success
+*Return: Always 0 (success)
 */
 int main(void)
 {
