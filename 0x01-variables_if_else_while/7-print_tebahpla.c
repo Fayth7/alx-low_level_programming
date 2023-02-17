@@ -8,9 +8,9 @@
 int main(void)
 {
 
-Char lc;
-for (lc = 'z'; lc >= 'a'; low--)
-putchar(low);
+char lc;
+for (lc = 'z'; lc >= 'a'; lc--)
+putchar(lc);
 putchar('\n');
 
 return (0);
