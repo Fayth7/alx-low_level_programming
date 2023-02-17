@@ -11,9 +11,9 @@ int main(void)
 
 {
 
-ind d;
+int d;
 char lc;
-for (d = '0' d <= '9'; d++)
+for (d = '0'; d <= '9'; d++;)
 putchar(lc);
 putchar('\n');
 
