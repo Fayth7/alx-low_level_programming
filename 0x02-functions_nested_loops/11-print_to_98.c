@@ -21,9 +21,9 @@ else
 {
 while (n <= 98)
 {
-printf("%d",)
+printf("%d", n)
 if (n != 98)
 printf(", ");
 }
 }
-putchar('\n');
+_putchar('\n');
