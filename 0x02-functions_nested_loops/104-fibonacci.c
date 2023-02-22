@@ -12,7 +12,7 @@ while (i <= 98)
 {
 if (f1o > 0)
 printf("%lu", f1o);
-initial0s = mx - 1 - numlength(f1);
+initial0s = mx - 1 - f1;
 while (f1o > 0 && initial0s > 0)
 {
 printf("%i", 0);
@@ -20,7 +20,7 @@ initial0s--;
 }
 printf("%lu", f1);
 tmp = (f1 + f2) % mx;
-tmpo = f1o +f2o + (f1 +f2) / mx;
+tmpo = f1o + f2o + (f1 + f2) / mx;
 f1 = f2;
 f1o = f2o;
 f2 = tmp;
