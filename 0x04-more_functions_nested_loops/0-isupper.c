@@ -8,12 +8,8 @@
 */
 int _isupper(int c)
 {
-char c;
-
 if (c >= 'A' && c <= 'Z')
-printf("Character is Upper Case Letters");
+return (1);
 else
-printf("Character is Not Upper Case Letters");
-
 return (0);
 }
