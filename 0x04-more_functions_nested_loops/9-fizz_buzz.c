@@ -1,22 +1,21 @@
 #include <stdio.h>
 
 /**
-* main - prints to 100
+* main - prints Fizz for multipkles of 3, Buzz for multiples of 5
+* Return: 0
 */
 int main(void)
-{int x;
-for (x = 1; x <= 100; x++)
+int main(void)
 {
-if (x == 100)
-printf("Buzz");
-else if (x % 3 == 0 && x % 5 == 0)
-printf("FizzBuzz ");
-else if (x % 3 == 0)
-printf("Fizz ");
-else if (x % 5 == 0)
-printf("Buzz ");
-else
-printf("%d ", x);
+int i;
+
+for (i = 1; i <= 100; i++)
+{
+(i % 3 == 0) ? printf("Fizz") : 0;
+(i % 5 == 0) ? printf("Buzz") : 0;
+(i % 3 != 0 && i % 5 != 0) ? printf("%d", i) : 0;
+(i != 100) ? printf(" ") : 0;
 }
 printf("\n");
+return (0);
 }
