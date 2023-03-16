@@ -6,6 +6,7 @@
 * main - Prints all possible combinations of two two-digit number
 * Returns: Always 0 (success)
 */
+
 int main(void)
 {
 int p, q;
