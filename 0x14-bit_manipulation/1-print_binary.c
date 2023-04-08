@@ -1,33 +1,28 @@
-#include <stdio.h>
-
 /**
  * print_binary - prints the binary equivalent of a decimal number
  * @n: number to print in binary
  */
-
 void print_binary(unsigned long int n)
 {
-int size = sizeof(unsigned long int) *8;
-unsigned long int mask = 1UL << (size - 1);
-int i;
+unsigned long int mask = 1;
+int i, count = 0;
 
-for (i = 0; i < size; i++)
+while (n > mask)
+mask = (mask << 1) | 1;
+
+for (i = 0; mask != 0; i++)
 {
-if ((n & mask) == 0)
-{
-_putchar('0');
-}
-else
+if (n & mask)
 {
 _putchar('1');
+count++;
 }
-mask >>= 1;
-}
+else if (count)
+_putchar('0');
+ 
+mask = mask >> 1;
 }
 
-int main()
-{
-unsigned long int n = 123456789;
-print_binary(n);
-return (0);
+if (!count)
+_putchar('0');
 }
