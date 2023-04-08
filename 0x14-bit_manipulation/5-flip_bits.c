@@ -16,5 +16,5 @@ count += exclusive & 1;
 exclusive >>= 1;
 }
 
-return count;
+return (count);
 }
