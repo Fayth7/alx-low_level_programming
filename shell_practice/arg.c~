@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main(char **argv) {
+    // loop through each argument and print it
+    while (*argv != NULL) {
+        printf("%s\n", *argv);
+        argv++;
+    }
+    return 0;
+}
