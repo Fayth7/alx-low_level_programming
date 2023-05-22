@@ -1,0 +1,18 @@
+#include "main.h"
+#include <stdio.h>
+
+/**
+* main - adds numbers
+*
+* Return: result
+*/
+
+int add_numbers(int a, int b)
+{
+return a + b;
+}
+
+int multiply_numbers(int a, int b)
+{
+return a * b;
+}
